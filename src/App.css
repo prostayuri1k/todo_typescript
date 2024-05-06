@@ -1,0 +1,20 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #1a1a40;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.todo:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.completed .todo-btn span {
+    text-decoration: line-through;
+    color: darkgray;
+}
